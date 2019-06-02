@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/margin_10"
+    android:background="@drawable/layout_rounded_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/movieNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_10"
+        android:paddingTop="@dimen/padding_15"
+        android:paddingRight="@dimen/padding_10"
+        android:paddingBottom="@dimen/padding_15"
+        android:text="Movie Name" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/posterIv"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/languageTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#55000000"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingTop="@dimen/padding_15"
+            android:paddingRight="@dimen/padding_10"
+            android:paddingBottom="@dimen/padding_15"
+            android:text="English"
+            android:textColor="@android:color/white" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/voterTv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="@dimen/margin_4"
+            android:layout_alignParentLeft="true"
+            android:drawablePadding="@dimen/margin_4"
+            android:drawableLeft="@drawable/voter_icon"
+            android:gravity="left|center_vertical"
+            android:text="count" />
+
+        <ImageView
+            android:id="@+id/favouriteIv"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/margin_4"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/layout_rounded_bg"
+            android:src="@drawable/fav_icon" />
+
+    </RelativeLayout>
+</LinearLayout>

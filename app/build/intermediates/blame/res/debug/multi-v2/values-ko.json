@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/avinashsingh/Documents/MovieDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/Users/avinashsingh/Documents/Chandrakanta/MovieDemoApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/avinashsingh/.gradle/caches/transforms-2/files-2.1/56f2cacfd9b308ab604af6afef21e014/res/values-ko/values-ko.xml",

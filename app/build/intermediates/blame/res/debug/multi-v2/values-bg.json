@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/avinashsingh/Documents/MovieDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
+            "outputFile": "/Users/avinashsingh/Documents/Chandrakanta/MovieDemoApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
             "map": [
                 {
                     "source": "/Users/avinashsingh/.gradle/caches/transforms-2/files-2.1/5f37370fadf7021dcef22cc5f61e3575/res/values-bg/values-bg.xml",
