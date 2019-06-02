@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">MovieDemoApp</string>
-    <string name="ok_btn">Ok</string>
-    <string name="internet_error_msg">No Internet Available. Please try again later!</string>
-    <string name="movie_list">Movie List</string>
-    <string name="movie_details">Movie Details</string>
-
-</resources>
